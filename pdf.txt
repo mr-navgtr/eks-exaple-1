@@ -1,0 +1,11 @@
+1.Type on your AWS CLI window #aws sts get-caller-identity
+2.  kubeconfig configuration allows you to connect to your cluster using the 
+kubectl command line. # aws eks update-kubeconfig --region us-east-1 --name webapp
+3. #cat > config.yaml
+4.  create loadbalancer #cat >service.yaml
+5. apply the config file to create the pod
+#kubectl apply -f config.yaml
+6. apply the service file
+#kubectl apply -f service.yaml
+
+
